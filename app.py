@@ -9,8 +9,8 @@ CORS(app)
 
 # Configuration
 FULL_NAME = "jacob_cherian_m"  # Replace with your actual name
-EMAIL = "jacob@xyz.com"    # Replace with your actual email
-ROLL_NUMBER = "ABCD123"   # Replace with your actual roll number
+EMAIL = "jakecherian10@gmail.com"    # Replace with your actual email
+ROLL_NUMBER = "22BRS1010"   # Replace with your actual roll number
 
 def get_user_id():
     """Generate user_id in format: full_name_ddmmyyyy"""
