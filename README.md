@@ -90,30 +90,7 @@ Processes an array and returns categorized results.
 - special_characters: `[]`
 - sum: `"0"`
 - concat_string: `"EoDdCbAa"`
-
-## Web Interface
-
-The project includes a modern, clean web interface for testing the API:
-
-### Main Interface
-![Array Processing API Interface](https://i.imgur.com/example1.png)
-
-The web interface features:
-- **Clean white background** with minimalist design
-- **Input field** for entering array elements (comma-separated)
-- **Process Array button** with gradient styling
-- **Quick Examples** buttons for testing with predefined data
-- **Static design** - no hover animations for professional appearance
-
-### API Response Display
-![API Response Example](https://i.imgur.com/example2.png)
-
-The response section shows:
-- **Success indicator** with green checkmark
-- **Formatted JSON response** with proper indentation
-- **All required fields** including user information and processed data
-- **Clean, readable output** for easy testing
-
+- 
 ## Local Development
 
 ### Prerequisites
