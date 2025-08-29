@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #ffffff;
     min-height: 100vh;
     color: #333;
 }
@@ -20,7 +20,7 @@ body {
 header {
     text-align: center;
     margin-bottom: 40px;
-    color: white;
+    color: #333;
 }
 
 header h1 {
@@ -47,16 +47,11 @@ main {
     gap: 30px;
 }
 
-.input-section, .output-section, .api-info {
+.input-section, .output-section {
     background: white;
     border-radius: 15px;
     padding: 30px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-}
-
-.input-section:hover, .output-section:hover, .api-info:hover {
-    transform: translateY(-5px);
 }
 
 h2 {
@@ -107,10 +102,7 @@ input[type="text"]:focus {
     box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
 }
 
-.btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
-}
+
 
 .btn-primary:active {
     transform: translateY(0);
@@ -146,7 +138,6 @@ input[type="text"]:focus {
 .btn-example:hover {
     background: #edf2f7;
     border-color: #cbd5e0;
-    transform: translateY(-1px);
 }
 
 .response-container {
