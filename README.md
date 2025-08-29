@@ -2,6 +2,12 @@
 
 A REST API that processes arrays and categorizes elements into different types (numbers, alphabets, special characters) with various operations.
 
+## 🖥️ Web Interface Preview
+
+![Array Processing API Interface](https://i.imgur.com/example1.png)
+
+**Modern, clean interface** with input field, example buttons, and real-time API testing.
+
 ## Features
 
 - **POST /bfhl** - Main endpoint for array processing
@@ -21,13 +27,16 @@ Processes an array and returns categorized results.
 }
 ```
 
-**Response:**
+**Response Example:**
+![API Response Example](https://i.imgur.com/example2.png)
+
+**JSON Response:**
 ```json
 {
   "is_success": true,
-  "user_id": "jake_smith_17091999",
-  "email": "jake@xyz.com",
-  "roll_number": "ABCD123",
+  "user_id": "jacob_cherian_m_29082025",
+  "email": "jakecherian10@gmail.com",
+  "roll_number": "22BRS1010",
   "odd_numbers": ["1"],
   "even_numbers": ["334", "4"],
   "alphabets": ["A", "R"],
@@ -82,6 +91,29 @@ Processes an array and returns categorized results.
 - sum: `"0"`
 - concat_string: `"EoDdCbAa"`
 
+## Web Interface
+
+The project includes a modern, clean web interface for testing the API:
+
+### Main Interface
+![Array Processing API Interface](https://i.imgur.com/example1.png)
+
+The web interface features:
+- **Clean white background** with minimalist design
+- **Input field** for entering array elements (comma-separated)
+- **Process Array button** with gradient styling
+- **Quick Examples** buttons for testing with predefined data
+- **Static design** - no hover animations for professional appearance
+
+### API Response Display
+![API Response Example](https://i.imgur.com/example2.png)
+
+The response section shows:
+- **Success indicator** with green checkmark
+- **Formatted JSON response** with proper indentation
+- **All required fields** including user information and processed data
+- **Clean, readable output** for easy testing
+
 ## Local Development
 
 ### Prerequisites
@@ -106,7 +138,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-4. Open your browser and navigate to `http://localhost:5000`
+4. Open your browser and navigate to `http://localhost:5001`
 
 ## Deployment
 
