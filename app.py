@@ -8,8 +8,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Configuration
-FULL_NAME = "jake_smith"  # Replace with your actual name
-EMAIL = "jake@xyz.com"    # Replace with your actual email
+FULL_NAME = "jacob_cherian_m"  # Replace with your actual name
+EMAIL = "jacob@xyz.com"    # Replace with your actual email
 ROLL_NUMBER = "ABCD123"   # Replace with your actual roll number
 
 def get_user_id():
