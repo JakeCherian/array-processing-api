@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Processing API</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Array Processing API</h1>
+            <p>Test the /bfhl endpoint with your data</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <h2>Input Data</h2>
+                <div class="input-group">
+                    <label for="arrayInput">Enter array elements (comma-separated):</label>
+                    <input type="text" id="arrayInput" placeholder="a,1,334,4,R,$" value="a,1,334,4,R,$">
+                    <button onclick="processArray()" class="btn-primary">Process Array</button>
+                </div>
+                
+                <div class="example-section">
+                    <h3>Quick Examples:</h3>
+                    <div class="example-buttons">
+                        <button onclick="loadExample('a,1,334,4,R,$')" class="btn-example">Example A</button>
+                        <button onclick="loadExample('2,a,y,4,&,-,*,5,92,b')" class="btn-example">Example B</button>
+                        <button onclick="loadExample('A,ABcD,DOE')" class="btn-example">Example C</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="output-section">
+                <h2>API Response</h2>
+                <div class="response-container">
+                    <pre id="responseOutput">Click "Process Array" to see the response...</pre>
+                </div>
+            </div>
+
+            <div class="api-info">
+                <h2>API Information</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong>Endpoint:</strong> POST /bfhl
+                    </div>
+                    <div class="info-item">
+                        <strong>Status Code:</strong> 200 (Success)
+                    </div>
+                    <div class="info-item">
+                        <strong>Content-Type:</strong> application/json
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
