@@ -2,12 +2,6 @@
 
 A REST API that processes arrays and categorizes elements into different types (numbers, alphabets, special characters) with various operations.
 
-## 🖥️ Web Interface Preview
-
-![Array Processing API Interface](https://i.imgur.com/example1.png)
-
-**Modern, clean interface** with input field, example buttons, and real-time API testing.
-
 ## Features
 
 - **POST /bfhl** - Main endpoint for array processing
@@ -27,8 +21,6 @@ Processes an array and returns categorized results.
 }
 ```
 
-**Response Example:**
-![API Response Example](https://i.imgur.com/example2.png)
 
 **JSON Response:**
 ```json
